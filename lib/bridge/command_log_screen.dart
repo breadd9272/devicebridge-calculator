@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme/app_colors.dart';
 import '../../providers/providers.dart';
+import '../../models/enums.dart';
 
 class CommandLogScreen extends ConsumerWidget {
   const CommandLogScreen({super.key});

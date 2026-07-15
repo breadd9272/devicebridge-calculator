@@ -1,4 +1,5 @@
 import '../../core/utils/logger.dart';
+import '../models/enums.dart';
 import '../../models/command_model.dart';
 import '../../models/command_result_model.dart';
 import '../../services/socket_io_service.dart';

@@ -1,3 +1,5 @@
+import 'enums.dart';
+
 class CommandModel {
   final String commandId;
   final String action;
